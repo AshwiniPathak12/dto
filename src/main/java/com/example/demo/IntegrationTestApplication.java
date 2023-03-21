@@ -22,7 +22,7 @@ public class IntegrationTestApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		Employee employee=new Employee(101, "someshwar", "pune");
+		Employee employee=new Employee(1010125, "ashwini", "pune");
 		
 		employeeRepository.save(employee);
 		
